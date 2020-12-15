@@ -1,0 +1,189 @@
+<hr>
+
+<h2> Create and Insert a Record !</h2>
+
+<form action= "/routing/create" method = "post">
+    <p>
+    
+      
+         <label>Id </label><input value="" name="id" />
+        <br>
+        <label>Name:  </label><input value="" name="name" />
+        <br>
+        <label>date </label><input type="date" name="date" />
+        <br>
+        <label>Manner Of Death</label>
+                    <select name="manner_of_death">
+                    <option value = "shot">Shot</option>
+                    <option value = "shot and Tasered">Shot and Tasered</option>    
+                    </select>
+        <br>
+        <label>Armed Type</label>
+                    <select name="armed_type">
+         <option value = "BB gun">BB gun</option>
+         <option value = "BB gun and vehicle">BB gun and vehicle</option>
+         <option value = "Taser">Taser</option>
+         <option value = "air conditioner">air conditioner</option>
+         <option value = "air pistol">air pistol</option>
+         <option value = "ax">ax</option>
+         <option value = "barstool">barstool</option>
+         <option value = "baseball bat">baseball bat</option>
+         <option value = "baseball bat and bottle">baseball bat and bottle</option>
+         <option value = "baseball bat and fireplace poker">baseball bat and fireplace poker</option>
+         <option value = "baseball bat and knife">baseball bat and knife</option>
+         <option value = "baton">baton</option>
+         <option value = "bayonet">bayonet</option>
+         <option value = "bean-bag gun">bean-bag gun</option>
+         <option value = "beer bottle">beer bottle</option>
+         <option value = "blunt object">blunt object</option>
+         <option value = "bow and arrow">bow and arrow</option>
+         <option value = "box cutter">box cutter</option>
+         <option value = "brick">brick</option>
+         <option value = "car, knife and mace">car, knife and mace</option>
+         <option value = "carjack">carjack</option>
+         <option value = "chain">chain</option>
+         <option value = "chain saw">chain saw</option>
+         <option value = "chainsaw">chainsaw</option>
+         <option value = "chair">chair</option>
+         <option value = "contractor's level">contractor's level</option>
+         <option value = "cordless drill">cordless drill</option>
+         <option value = "crossbow">crossbow</option>
+         <option value = "crowbar">crowbar</option>
+         <option value = "fireworks">fireworks</option>
+         <option value = "flagpole">flagpole</option>
+         <option value = "flashlight">flashlight</option>
+         <option value = "garden tool">garden tool</option>
+         <option value = "glass shard">glass shard</option>
+         <option value = "grenade">grenade</option>
+         <option value = "gun">gun</option>
+         <option value = "gun and car">gun and car</option>
+         <option value = "gun and knife">gun and knife</option>
+         <option value = "gun and sword">gun and sword</option>
+         <option value = "gun and vehicle">gun and vehicle</option>
+         <option value = "guns and explosives">guns and explosives</option>
+         <option value = "hammer">hammer</option>
+         <option value = "hand torch">hand torch</option>
+         <option value = "hatchet">hatchet</option>
+         <option value = "hatchet and gun">hatchet and gun</option>
+         <option value = "ice pick">ice pick</option>
+         <option value = "incendiary device">incendiary device</option>
+         <option value = "knife">knife</option>
+         <option value = "lawn mower blade">lawn mower blade</option>
+         <option value = "machete">machete</option>
+         <option value = "machete and gun">machete and gun</option>
+         <option value = "meat cleaver">meat cleaver</option>
+         <option value = "metal hand tool">metal hand tool</option>
+         <option value = "metal object">metal object</option>
+         <option value = "metal pipe">metal pipe</option>
+         <option value = "metal pole">metal pole</option>
+         <option value = "metal rake">metal rake</option>
+         <option value = "metal stick">metal stick</option>
+         <option value = "motorcycle">motorcycle</option>
+         <option value = "nail gun">nail gun</option>
+         <option value = "oar">oar</option>
+         <option value = "pellet gun">pellet gun</option>
+         <option value = "pen">pen</option>
+         <option value = "pepper spray">pepper spray</option>
+         <option value = "pick-axe">pick-axe</option>
+         <option value = "piece of wood">piece of wood</option>
+         <option value = "pipe">pipe</option>
+         <option value = "pitchfork">pitchfork</option>
+         <option value = "pole">pole</option>
+         <option value = "pole and knife">pole and knife</option>
+         <option value = "rock">rock</option>
+         <option value = "samurai sword">samurai sword</option>
+         <option value = "scissors">scissors</option>
+         <option value = "screwdriver">screwdriver</option>
+         <option value = "sharp object">sharp object</option>
+         <option value = "shovel">shovel</option>
+         <option value = "spear">spear</option>
+         <option value = "stapler">stapler</option>
+         <option value = "straight edge razor">straight edge razor</option>
+         <option value = "sword">sword</option>
+         <option value = "toy weapon">toy weapon</option>
+         <option value = "unarmed">unarmed</option>
+         <option value = "unknown">unknown</option>
+         <option value = "vehicle">vehicle</option>
+         <option value = "vehicle and gun">vehicle and gun</option>
+         <option value = "vehicle and machete">vehicle and machete</option>
+         <option value = "walking stick">walking stick</option>
+         <option value = "wasp spray">wasp spray</option>
+         <option value = "wrench">wrench</option>
+         </select>
+        <br>
+<label>Age </label><input value="" name="age" />
+        <br>
+        <label>Gender : </label>
+                    <select name="gender">
+                    <option value = "M">Male</option>
+                    <option value = "F">Female</option>    
+                    </select>
+        <br>
+        <label>Race :</label>
+                    <select name="race">
+                    <option value = "Asian">Asian</option>
+                    <option value = "Black">Black</option>  
+                    <option value = "Hispanic">Hispanic</option>
+                    <option value = "Native">Native</option> 
+                    <option value = "Other">Other</option>
+                    <option value = "White">White</option>   
+                    </select>
+        <br>
+        <label>City </label><input value="" name="city" />
+        <br>
+        <label>State </label><input value="" name="state" />
+        <br>
+        <label>Signs of mental illness : </label>
+                    <select name="signs_of_mental_illness">
+                    <option value = "True">True</option>
+                    <option value = "False">False</option>    
+                    </select>
+        <br>
+        <label>Threat Level</label>
+                    <select name="threat_level">
+                    <option value = "attack">Attack</option>
+                    <option value = "other">Other</option>
+                    <option value = "undetermined">Undetermined</option>    
+                    </select>
+        <br>
+        <label>Flee Status</label>
+                    <select name="flee">
+                    <option value = "Car">Car</option>
+                    <option value = "Foot">Foot</option>
+                    <option value = "Not fleeing">Not Fleeing</option> 
+                    <option value = "Other">Other</option>   
+                    </select>
+        <br>
+        <label>Body Camera : </label>
+                    <select name="body_camera">
+                    <option value = "True">True</option>
+                    <option value = "False">False</option>    
+                    </select>
+        <br>
+         <label>Arms Category</label>
+                    <select name="arms_category">
+<option value = "Blunt instruments"   >Blunt instruments</option>
+<option value = "Electrical devices">Electrical devices</option>
+<option value = "Explosives">Explosives</option>
+<option value = "Guns">Guns</option>
+<option value = "Hand tools">Hand tools</option>
+<option value = "Multiple">Multiple</option>
+<option value = "Other unusual objects">Other unusual objects</option>
+<option value = "Piercing objects">Piercing objects</option>
+<option value = "Sharp objects">Sharp objects</option>
+<option value = "Unarmed">Unarmed</option>
+<option value = "Unknown">Unknown</option>
+<option value = "Vehicles">Vehicles</option>
+                    </select>
+        <br>
+
+        <button type="submit">Insert !</button>
+
+
+
+    </p>
+</form>
+
+
+
+<hr>

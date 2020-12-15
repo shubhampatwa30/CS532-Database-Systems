@@ -1,0 +1,42 @@
+<h1>
+    Police Shootings Data
+</h1>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Manner_Of_death</th>
+        <th>Armed</th>
+        <th>Age</th>
+        <th>gender</th>
+        <th>Race</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Signs_of_mental_illness</th>
+        <th>threat_level</th>
+        <th>Flee</th>
+        <th>Body_Camera</th>
+        <th>Arms_category</th>
+
+    </tr>
+    {{#each data}}
+    <tr>
+        <td>{{this.id}}</td>
+        <td>{{this.name}}</td>
+        <td>{{this.date}}</td>
+        <td>{{this.manner_of_death}}</td>
+        <td>{{this.armed}}</td>
+        <td>{{this.age}}</td>
+        <td>{{this.gender}}</td>
+        <td>{{this.race}}</td>
+        <td>{{this.city}}</td>
+        <td>{{this.state}}</td>
+        <td>{{this.signs_of_mental_illness}}</td>
+        <td>{{this.threat_level}}</td>
+        <td>{{this.flee}}</td>
+        <td>{{this.body_camera}}</td>
+        <td>{{this.arms_category}}</td>
+    </tr>
+    {{/each}}
+</table>

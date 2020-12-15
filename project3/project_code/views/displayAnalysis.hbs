@@ -1,0 +1,18 @@
+<h1>
+    State Analysis based on race: 
+</h1>
+<table>
+    <tr>
+        <th>Race</th>
+        <th>Police Shootings Rate</th>
+
+
+    </tr>
+    {{#each data}}
+    <tr>
+        <td>{{this._id}}</td>
+        <td>{{this.count}}%</td>
+       
+    </tr>
+    {{/each}}
+</table>
